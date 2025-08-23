@@ -75,7 +75,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'edouard-maleix',
-    twitter: 'e_maleix',
+    x: 'e_maleix',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -89,7 +89,7 @@ const CONFIG = {
     medium: '',
     dev: 'getlarge',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    discord: '',
     telegram: '',
     website: '',
     phone: '',
@@ -205,6 +205,9 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
 
