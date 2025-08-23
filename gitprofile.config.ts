@@ -39,6 +39,13 @@ const CONFIG = {
       header: 'Speaking In Public',
       projects: [
         {
+          title: 'EnterJS Conf 2025',
+          description: 'Building Single Executable Applications with Node.js.',
+          imageUrl:
+            'https://github.com/user-attachments/assets/04bbd0b8-8991-4b1e-8b85-35a1660a860d',
+          link: 'https://enterjs.de/lecture.php?id=82719&source=0',
+        },
+        {
           title: 'Vendure Conf 2024',
           description: 'Building Single Executable Applications with Node.js.',
           imageUrl: 'https://img.youtube.com/vi/sqU1z09Gl58/0.jpg',
@@ -98,6 +105,9 @@ const CONFIG = {
   resume: {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
+  googleAnalytics: {
+    id: '',
+  },
   skills: [
     'JavaScript',
     'TypeScript',
@@ -137,14 +147,21 @@ const CONFIG = {
     {
       company: 'CUBE Software- und Hotelprojektierungs GmbH',
       position: 'Full-stack Javascript developper',
-      from: 'June 2020',
-      to: 'October 2020',
+      from: 'February 2020',
+      to: 'May 2020',
       companyLink: 'https://cube-tech.ai',
     },
     {
       company: 'Self-employed',
       position: 'Freelance Software Engineer',
       from: 'July 2018',
+      to: 'January 2020',
+      companyLink: '',
+    },
+    {
+      company: 'Aloes',
+      position: 'Co-founder',
+      from: 'January 2016',
       to: 'January 2020',
       companyLink: '',
     },
@@ -160,7 +177,7 @@ const CONFIG = {
     header: 'Articles',
   },
   themeConfig: {
-    defaultTheme: 'procyon',
+    defaultTheme: 'wireframe',
     // Hides the themes selector in the navbar
     disableSwitch: true,
 
